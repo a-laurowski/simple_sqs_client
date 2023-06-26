@@ -4,11 +4,11 @@ with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='example_pypi_package',
-    author='Tom Chen',
-    author_email='tomchen.org@gmail.com',
-    description='Example PyPI (Python Package Index) Package',
-    keywords='example, pypi, package',
+    name='simple_sqs_client',
+    author='Aleksander Laurowski',
+    author_email='aleksander.laurowski191@gmail.com',
+    description='Very simple SQS Client',
+    keywords='sqs',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/tomchen/example_pypi_package',
