@@ -4,6 +4,7 @@ import os
 from botocore.exceptions import WaiterError
 from .client import SQSClient
 
+
 class TestSQSClientIntegration(unittest.TestCase):
 
     @classmethod

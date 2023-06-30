@@ -8,7 +8,7 @@ setuptools.setup(
     author='Aleksander Laurowski',
     author_email='aleksander.laurowski191@gmail.com',
     description='Very simple SQS Client',
-    keywords='sqs',
+    keywords='simple_sqs_client',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/tomchen/example_pypi_package',
@@ -47,7 +47,7 @@ setuptools.setup(
     # entry_points={
     #     'console_scripts': [  # This can provide executable scripts
     #         'run=simple_sqs_client:main',
-    # You can execute `run` in bash to run `main()` in src/sqs/__init__.py
+    # You can execute `run` in bash to run `main()` in src/simple_sqs_client/__init__.py
     #     ],
     # },
 )

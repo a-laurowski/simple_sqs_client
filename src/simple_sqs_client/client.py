@@ -155,7 +155,7 @@ class SQSClient:
         """
         Initializes the SQS client using the specified AWS credentials and region.
         """
-        self.sqs = boto3.client('sqs', region_name=self.region_name,
+        self.sqs = boto3.client('simple_sqs_client', region_name=self.region_name,
                                 aws_access_key_id=self.aws_access_key_id,
                                 aws_secret_access_key=self.aws_secret_access_key)
 
