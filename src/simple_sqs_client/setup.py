@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='simple_sqs_client',
-    version='1.0.0',
+    version='0.9.3',
     author='Aleksander Laurowski',
     author_email='aleksander.laurowski1991@gmail.com',
     description='A very simple package for interacting with SQS (Simple Queue Service) in AWS',

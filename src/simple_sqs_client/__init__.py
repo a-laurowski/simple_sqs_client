@@ -1,4 +1,4 @@
-__version__ = "0.1.0"
+__version__ = "0.9.3"
 
 from .client import *
 from .builder import *
