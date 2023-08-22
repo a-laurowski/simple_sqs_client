@@ -60,8 +60,19 @@ class SQSClientBuilder:
         Returns:
             SQSClient: An instance of SQSClient.
         """
-        if not all([self.region_name, self.aws_access_key_id, self.aws_secret_access_key, self.queue_url]):
-            raise ValueError("Missing required parameters.")
+        missing_fields = []
+
+        if not self.region_name:
+            missing_fields.append('region_name')
+        if not self.aws_access_key_id:
+            missing_fields.append('aws_access_key_id')
+        if not self.aws_secret_access_key:
+            missing_fields.append('aws_secret_access_key')
+        if not self.queue_url:
+            missing_fields.append('queue_url')
+
+        if missing_fields:
+            raise ValueError(f"Missing required SQS connection parameters: {', '.join(missing_fields)}")
 
         client = SQSClient(self.region_name, self.aws_access_key_id, self.aws_secret_access_key, self.queue_url)
         return client
