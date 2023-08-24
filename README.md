@@ -1,4 +1,4 @@
-# Very Sipmle SQS Client
+# Very Simple SQS Client
 
 ## Requirements
 - Python 3+
