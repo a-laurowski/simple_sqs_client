@@ -11,14 +11,12 @@ setuptools.setup(
     keywords='simple_sqs_client',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/tomchen/example_pypi_package',
+    url='https://github.com/a-laurowski/simple_sqs_client',
     project_urls={
-        'Documentation': 'https://github.com/tomchen/example_pypi_package',
+        'Documentation': 'https://github.com/a-laurowski/simple_sqs_client/blob/main/README.md',
         'Bug Reports':
-        'https://github.com/tomchen/example_pypi_package/issues',
-        'Source Code': 'https://github.com/tomchen/example_pypi_package',
-        # 'Funding': '',
-        # 'Say Thanks!': '',
+        'https://github.com/a-laurowski/simple_sqs_client/issues',
+        'Source Code': 'https://github.com/a-laurowski/simple_sqs_client',
     },
     package_dir={'': 'src'},
     packages=setuptools.find_packages(where='src'),
